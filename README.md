@@ -5,3 +5,18 @@
 ## 📝 Material de Aula
 
 Material das aulas de Programação Orientada a Objetos com Python para a turma 2024.2 do NExT, da CESAR School.
+
+| Aula | Material |
+| --- | ------- |
+| Aula 01 - Introdução à Programação Orientada a Objetos | [Slides](https://docs.google.com/presentation/d/1wCeYEVyxK4SZzESPLRY1xkmEKG0d52v0_mdidk5EV2Q/edit?usp=sharing)|
+| --- | ------- |
+| --- | ------- |
+| --- | ------- |
+| --- | ------- |
+| --- | ------- |
+| --- | ------- |
+| --- | ------- |
+| --- | ------- |
+| --- | ------- |
+| --- | ------- |
+| --- | ------- |
