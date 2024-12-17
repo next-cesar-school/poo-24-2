@@ -102,38 +102,36 @@ print(fox.modelo)
 
 > 💡 `self`: é uma referência ao próprio objeto. Sempre que criamos um método dentro da classe, o primeiro parâmetro deve ser `self` para que o método possa acessar os atributos e outros métodos da mesma instância.
 
-# Encapsulamento Básico
-
-Encapsulamento é o ato de proteger os dados do objeto, evitando que sejam acessados ou modificados de forma indevida. Nesta aula, não entraremos em detalhes sobre níveis de acesso complexos, mas vale ressaltar:
-
-- Em Python, não existe um modificador de acesso explícito (como `private`, `public`), mas por convenção, atributos internos ou que não devem ser acessados diretamente são iniciados com dois `_` (_underscore_). Por exemplo: `__velocidade`.
-- Futuramente, aprenderemos técnicas para controlar melhor o acesso e a modificação dos atributos.
-
-## Regras de Negócio
+# Regras de Negócio
 
 Se por um lado um número inteiro pode ser negativo, quando esse número representar a idade de uma pessoa, não faz sentido com que esse valor seja menor que zero.
 
 Esse tipo de restrição é chamada de **"Regra de Negócio"**, ou seja, regras que são específicas do contexto da solução.
 
-Quando precisamos controlar o acesso a um atribudo de uma classe, podemos defini-lo como privado (`__atributo`) e controlar o acesso através de um método público. _⚠️ Vamos falar mais sobre isso amanhã._
+Quando precisamos controlar a forma como um atributo é manipulado, podemos criar métodos `get` e `set` para implementar as regras de acesso ou manipulação do atributo.
+
+- `get_atributo`: usado para retornar o valor do atributo;
+- `set_atributo`: usado para definir um valor para o atributo;
+
+_⚠️ Vamos falar mais sobre isso amanhã._
 
 ```python
 class Pessoa():
     def __init__(self, nome):
         self.nome = nome
-        self.__idade = 0
+        self.idade = 0
 
     def set_idade(self, idade):
         if idade >= 0:
-            self.__idade = idade
+            self.idade = idade
 
     def get_idade(self):
-        return self.__idade
+        return self.idade
 ```
 
 O que está acontecendo aqui?
 - No método `__init__`, definimos que toda pessoa terá `nome`.
-- A idade é um atributo **privado** e não pode ser modificado diretamente. Seu valor está sendo definido automaticamente como `zero`.
+- A idade é um atributo que tem o seu valor sendo definido automaticamente como `zero`.
 - O método `set_idade` recebe como parâmetro a idade e verifica se o valor é válido.
 - O método `get_idade` retorna o valor da idade.
 
