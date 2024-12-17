@@ -1,14 +1,15 @@
 <img src="https://www.cesar.school/wp-content/uploads/2019/09/marca_cesar_school.png" alt="drawing" width="200"/>
 
 # NExT 2024.2 **Programação Orientada a Objetos** com Python
+
 ## Aula 02 - Classes e Objetos
 
 ### Na aula de hoje:
+
 - Classes
 - Objetos
 - Atributos de Instância
 - Método `__init__()`
-- Encapsulamento básico
 
 ------------------
 
@@ -39,6 +40,7 @@ class NomeDaClasse:
 Inicialmente, podemos criar uma classe vazia, apenas com a palavra pass para indicar que não há nada definido ainda.
 
 Exemplo:
+
 ```python
 class Carro:
     pass
@@ -75,7 +77,7 @@ Quando definimos um atributo para uma classe, o seu valor é o mesmo para todas 
 
 **Atributos de Instância** são variáveis que pertencem a cada objeto criado a partir da classe. Cada objeto pode ter valores diferentes para esses atributos.
 
-Para criar atributos e métodos, vamos começar pelo método especial __init__, que é o inicializador do objeto.
+Para criar atributos e métodos, vamos começar pelo método especial `__init__()`, que é o inicializador/construtor do objeto.
 
 ## Método `__init__()`
 
@@ -130,6 +132,7 @@ class Pessoa():
 ```
 
 O que está acontecendo aqui?
+
 - No método `__init__`, definimos que toda pessoa terá `nome`.
 - A idade é um atributo que tem o seu valor sendo definido automaticamente como `zero`.
 - O método `set_idade` recebe como parâmetro a idade e verifica se o valor é válido.
@@ -155,7 +158,7 @@ Neste caso, a primeira tentativa de definir um valor para idade não tem efeito,
 
 Vamos começar criando a classe Jogo. Esta classe deve ter o atributo `ativo` privado e dois métodos. Um para alterar o valor e outro para checar que o jogo é um projeto ativo ou não.
 
-![](uml_dc_jogo.png)
+![Diagrama de Classe: Jogo](uml_dc_jogo.png)
 
 Nos próximos encontros vamos dar sequência ao desenvolvimento deste projeto.
 
