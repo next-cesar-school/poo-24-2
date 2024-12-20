@@ -36,16 +36,19 @@ class Cachorro(Animal):
     def emitir_som(self):
         print("Au au!")
 
-class Gato(Animal):
+class Passaro(Animal):
     def emitir_som(self):
-        print("Miau!")
+        print('Pru pru!')
+
+class Ornitorrinco(Animal):
+    pass
 
 # Polimorfismo
 def fazer_animal_emitir_som(animal):
     animal.emitir_som()
 
 # Teste
-animais = [Cachorro(), Gato(), Animal()]
+animais = [Cachorro(), Passaro(), Ornitorrinco()]
 for animal in animais:
     fazer_animal_emitir_som(animal)
 ```
@@ -107,19 +110,23 @@ class A:
     def falar(self):
         print("Classe A")
 
-class B(A):
+class B:
     def falar(self):
         print("Classe B")
 
+class C(A, B):
+    pass
+
 # Teste
-b = B()
-b.falar()
-print(B.__mro__)  # Exibe a ordem de resolução
+c = C()
+c.falar()
+
+print(C.__mro__) # Exibe a ordem de resolução da Classe
 ```
 
 ### Explicação
 
-- A ordem é: B → A → object
+- A ordem é: C → A → B → object
 
 # 🧱 Exercícios Fundamentais
 
