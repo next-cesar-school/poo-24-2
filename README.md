@@ -1,6 +1,8 @@
-<img src="https://www.cesar.school/wp-content/uploads/2019/09/marca_cesar_school.png" alt="drawing" width="200"/>
+# NExT 2024.2
 
-# NExT 2024.2 **Programação Orientada a Objetos** com Python
+## **Programação Orientada a Objetos** com Python
+
+![CESAR School](/cesar_school.png)
 
 ## 📝 Material de Aula
 
