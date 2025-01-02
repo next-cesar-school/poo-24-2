@@ -16,9 +16,9 @@ Material das aulas de Programação Orientada a Objetos com Python para a turma 
 | Aula 04 - Herança | [Conteúdo](/aula04/README.md) <br> [Práticas](/aula04/praticas/) <br> [Exercícios Resolvidos](/aula04/exercicios/) |
 | Aula 05 - Polimorfismo | [Conteúdo](/aula05/README.md) <br> [Práticas](/aula05/praticas/) <br> [Exercícios Resolvidos](/aula05/exercicios/) |
 | Aula 06 - Dunder Methods | [Conteúdo](/aula06/README.md) <br> [Práticas](/aula06/praticas/) |
-| --- | ------- |
-| --- | ------- |
-| --- | ------- |
-| --- | ------- |
-| --- | ------- |
-| --- | ------- |
+| Aula 07 - Typing | ------- |
+| Aula 08 - Documentação | ------- |
+| Aula 09 - Tratamento de Exceções em POO | ------- |
+| Aula 10 - Classes Abstratas e Decoratos | ------- |
+| Aula 11 - Testes Unitários | ------- |
+| Aula 12 - Projeto | ------- |
