@@ -11,7 +11,7 @@
 
 ------------------
 
-# Por que Documentar?
+## Por que Documentar?
 
 Documentação é uma parte essencial do desenvolvimento de software. Um código bem documentado facilita a manutenção, colaboração e o entendimento do projeto por outros desenvolvedores (e até por você mesmo no futuro).
 
@@ -22,9 +22,9 @@ Vantagens de uma boa documentação:
 - Acelera o aprendizado de novos membros no time;
 - Evita mal-entendidos sobre o funcionamento do código.
 
-## Tipos de Documentação
+### Tipos de Documentação
 
-### 1. Comentários em Código
+#### 1. Comentários em Código
 
 Comentários devem ser curtos e claros, explicando trechos complexos ou justificando decisões técnicas.
 
@@ -39,7 +39,7 @@ valor_final = preco * 1.1  # Imposto de 10%
 x = x + 1  # Soma 1 a x
 ```
 
-### 2. Docstrings (Documentação de Funções, Classes e Módulos)
+#### 2. Docstrings (Documentação de Funções, Classes e Módulos)
 
 As docstrings são blocos de texto que explicam o propósito de uma função, classe ou módulo. Elas são inseridas logo abaixo da definição com três aspas `"""`.
 
@@ -64,7 +64,7 @@ Boas práticas:
 - Liste os parâmetros com seus tipos;
 - Indique o valor de retorno e seu tipo.
 
-### 3. README (Documentação do Projeto)
+#### 3. README (Documentação do Projeto)
 
 O arquivo `README.md` serve como uma introdução ao projeto.
 Ele deve conter:
@@ -76,17 +76,17 @@ Ele deve conter:
 
 💡 Geralmente usamos Markdown para escrever o `README.md`.
 
-## Documentação em Projetos POO
+### Documentação em Projetos POO
 
 Na **Programação Orientada a Objetos** (POO), a documentação desempenha um papel essencial na explicação de classes, métodos e interações entre objetos. Um código bem documentado ajuda a manter a clareza do projeto e facilita a colaboração entre desenvolvedores.
 
-### O que documentar
+#### O que documentar
 
 - **Módulo**: Apresentar o módulo e sua estrutura base;
 - **Classe**: Explicar o propósito da classe e como instanciá-la;
 - **Métodos públicos**: Documentar parâmetros, tipos de retorno e o objetivo do método.
 
-### Exemplo do arquivo `pessoa.py`:
+#### Exemplo do arquivo `pessoa.py`
 
 ```python
 """Módulo Pessoa do Sistemas de Cadastro"""
@@ -122,7 +122,7 @@ class Pessoa:
         return f"Olá, meu nome é {self.nome}."
 ```
 
-## Ferramentas para Documentação Automática
+### Ferramentas para Documentação Automática
 
 - **[pydoc](https://docs.python.org/pt-br/3/library/pydoc.html)**: Ferramenta nativa do Python para gerar automaticamente a documentação dos módulos. A documentação pode ser apresentada no console ou salva em arquivos HTML.
     `python -m pydoc -w modulo.exemplo`
@@ -131,7 +131,7 @@ class Pessoa:
 - **[pdoc](https://pdoc.dev)**: Simples e direto, gera documentação a partir de docstrings.
 - **[MkDocs](https://www.mkdocs.org)**: Ideal para documentar APIs.
 
-## Inspirações de Repositórios Bem Documentados
+### Inspirações de Repositórios Bem Documentados
 
 1. [Django](https://github.com/django/django)
 
@@ -153,7 +153,7 @@ class Pessoa:
     - Docstrings extensas, explicando o propósito de cada método;
     - Documentação oficial muito detalhada.
 
-# 📮 Endereço com CEP
+## 📮 Endereço com CEP
 
 ## Objetivo
 
@@ -253,7 +253,7 @@ No futuro, vamos verificar se o programa consegue se conectar à internet. Caso 
 
 No `README.md` vamos apresentar o projeto, listar suas dependências (`request`) e explicar como usar.
 
-# 🧱 Exercícios Fundamentais
+## 🧱 Exercícios Fundamentais
 
 1. Documente os módulos, classes e métodos do projeto FORJA Contatos (`Jogo`, `Pessoa`, `GameStudio`);
 2. Revise outros projetos do seu portifólio e adicione a documentação adequada neles.
