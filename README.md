@@ -22,3 +22,8 @@ Material das aulas de Programação Orientada a Objetos com Python para a turma 
 | Aula 10 - Classes Abstratas e Decoratos | ------- |
 | Aula 11 - Testes Unitários | ------- |
 | Aula 12 - Projeto | ------- |
+
+## 🏗️ Projetos
+
+- [FORJA Contato](/forja_contato/)
+- ...
