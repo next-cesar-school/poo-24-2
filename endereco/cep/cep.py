@@ -1,7 +1,19 @@
+"""Endereço por CEP"""
+
 import requests
 
 
 class CEP:
+    """Representa um CEP com seus dados obtidos a partir da API ViaCEP
+
+    Atributos:
+        cep (str): Código de Endereçamento Postal.
+        logradouro (str): Nome da rua/avenida.
+        bairro (str): Bairro do endereço.
+        cidade (str): Cidade da rua.
+        estado (str): Estado do CEP.
+    """
+
     def __init__(self, cep: str) -> None:
         self.cep = cep
         self.logradouro = ''
@@ -20,7 +32,7 @@ class CEP:
 
     def __buscar_cep(self) -> None:
 
-        resposta = requests.get(f'https://viacep.com.br/ws/{self.cep}/json/')
+        resposta = requests.get(f'https://viacep.com.br/ws/{self.cep}/json/', timeout=1)
 
         if resposta.status_code != 200:
             print(f'Algo de errado ocorreu.\nErro: {resposta.status_code}')
