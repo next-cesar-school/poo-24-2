@@ -18,7 +18,7 @@ Material das aulas de Programação Orientada a Objetos com Python para a turma 
 | Aula 06 - Dunder Methods | [Conteúdo](/aula06/README.md) <br> [Práticas](/aula06/praticas/) |
 | Aula 07 - Typing | [Conteúdo](/aula07/README.md) <br> [Práticas](/aula07/praticas/) |
 | Aula 08 - Documentação | [Conteúdo](/aula08/README.md) |
-| Aula 09 - Tratamento de Exceções em POO | ------- |
+| Aula 09 - Tratamento de Exceções em POO | [Conteúdo](/aula09/README.md) |
 | Aula 10 - Classes Abstratas e Decoratos | ------- |
 | Aula 11 - Testes Unitários | ------- |
 | Aula 12 - Projeto | ------- |
