@@ -27,3 +27,4 @@ Material das aulas de Programação Orientada a Objetos com Python para a turma 
 
 - [FORJA Contato](/forja_contato/)
 - [Endereço](/projeto_endereco/)
+- [CPF](/cpf/)
