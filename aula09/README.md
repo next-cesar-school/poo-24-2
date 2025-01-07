@@ -155,7 +155,7 @@ except SaldoInsuficienteError as e:
 ## 1. 🏠 CEP
 
 1. Implementar a verificação de internet no arquivo `__init__.py`;
-2. Verificar se o CPF informado na inicialização da Classe CPF é válido (é string, é numérico, tem 8 caracteres);
+2. Verificar se o CEP informado na inicialização da Classe CEP é válido (é string, é numérico, tem 8 caracteres);
 3. Lançar uma exceção `ConnectionError` se o `status_code` for diferente de 200.
 4. Lançar um `ValueError` se o CEP não for encontrado.
 
