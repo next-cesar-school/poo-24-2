@@ -20,7 +20,7 @@ Material das aulas de Programação Orientada a Objetos com Python para a turma 
 | Aula 08 - Documentação | [Conteúdo](/aula08/README.md) |
 | Aula 09 - Tratamento de Exceções em POO | [Conteúdo](/aula09/README.md) |
 | Aula 10 - Classes Abstratas e Decoratos | [Conteúdo](/aula10/README.md) <br> [Práticas](/aula10/praticas/) |
-| Aula 11 - Testes Unitários | [Conteúdo](/aula11/README.md) |
+| Aula 11 - Testes Unitários | [Conteúdo](/aula11/README.md) <br> [Práticas](/aula11/praticas/) |
 | Aula 12 - Projeto | ------- |
 
 ## 🏗️ Projetos
