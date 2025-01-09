@@ -28,3 +28,9 @@ Material das aulas de Programação Orientada a Objetos com Python para a turma 
 - [FORJA Contato](/forja_contato/)
 - [Endereço](/projeto_endereco/)
 - [CPF](/cpf/)
+
+## 📚 Livros
+
+Um livro que cobre todas as peculiaridades avançadas e mais recentes do Python, e que é de um autor brasileiro e muito experiente; E ainda está disponível gratuitamente no site oficial:
+
+- [Python Fluente](https://pythonfluente.com), _Luciano Ramalho_ (2023)
