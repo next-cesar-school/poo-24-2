@@ -22,6 +22,7 @@ Material das aulas de Programação Orientada a Objetos com Python para a turma 
 | Aula 10 - Classes Abstratas e Decoratos | [Conteúdo](/aula10/README.md) <br> [Práticas](/aula10/praticas/) |
 | Aula 11 - Testes Unitários | [Conteúdo](/aula11/README.md) <br> [Práticas](/aula11/praticas/) |
 | Aula 12 - Projeto | [Conteúdo](/aula12/README.md) |
+| Aula de Revisão | [Conteúdo](/aula_revisao/README.md) |
 
 ## 🏗️ Projetos
 
