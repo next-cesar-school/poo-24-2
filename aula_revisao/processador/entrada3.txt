@@ -1,0 +1,22 @@
+    ANÁLISE DE DADOS COM PYTHON: UMA BREVE INTRODUÇÃO
+    
+    O universo de DATA SCIENCE envolve estatística, machine learning, visualização de dados e muito mais.
+Python contribui por oferecer bibliotecas como NumPy, Pandas e Matplotlib.
+
+Exemplos de operações:
+   1) Pandas para manipular DataFrames
+   2) NumPy para cálculos numéricos de alta performance
+   3) Matplotlib / Seaborn para gerar gráficos
+
+    Observação sobre acentuação: 
+    - "í", "ó", "ú", "ã", "ç", "õ", "â", "ê"
+
+TABELAS E ARQUIVOS:
+   - CSV
+   - Excel
+   - JSON
+
+    Em Python, manipulamos esses arquivos facilmente. 
+    E também temos possibilidades de trabalhar com APIs REST, Web Scraping e muito mais!
+
+   Fim do Arquivo 3.

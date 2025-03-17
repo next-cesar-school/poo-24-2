@@ -1,0 +1,20 @@
+Cada linha conta uma história diferente:
+   "A esperança é o sonho do homem acordado." - Aristóteles
+
+   Frase 2:
+   "Sorte é o que acontece quando a preparação encontra a oportunidade." - Sêneca
+
+   
+      Terceira citação:
+      "A persistência é o caminho do êxito." - Charles Chaplin
+
+Sim, temos espaços acima, abaixo e no meio dessas linhas. 
+Algumas linhas estão em branco, e outras estão com múltiplos espaços!
+   
+Você também pode notar o uso de acentos:
+- ê, é, à, ç, ã
+- Maiúsculas: Á, Ó, É
+
+   E no final, uma linha com espaços antes e depois.
+       
+Fim do Arquivo 2.

@@ -1,0 +1,21 @@
+    Este arquivo é dedicado à verificação de como o programa lida com MUITOS espaços, 
+    especialmente NO MEIO da linha:
+
+Exemplo de linha com  espaços    duplicados  (ou mais):
+   "Palavra    meio       da linha"
+
+Outra linha com CARACTERES ESPECIAIS: @, &, $, ¥, ♫, §
+   Verifique se a remoção de espaços também funciona quando esses caracteres estão presentes.
+
+   LISTA DE TAREFAS:
+   1) Limpar espaços sobrando
+   2) Converter tudo pra maiúscula (ou minúscula)
+   3) Numerar as linhas
+   4) Manter acentos corretos
+
+Teste de linha com pontuação: !!! ??? ::: ...
+E espaços no final!       
+
+Última linha com espaços no início e no fim.     
+   
+Fim do Arquivo 4. 

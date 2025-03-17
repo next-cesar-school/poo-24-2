@@ -1,0 +1,22 @@
+       PYTHON é uma das linguagens de programação mais usadas no mundo.
+Ela é famosa por sua sintaxe simples e pela vasta comunidade de usuários.
+  
+   VANTAGENS                DO PYTHON:
+   1) Sintaxe limpa e legível
+   2) Abordagem multiplataforma
+   3) Grande quantidade de bibliotecas prontas
+   4) Comunidade ativa
+
+Essa linguagem é utilizada em:
+- Desenvolvimento Web
+- Data Science e Machine Learning
+- Scripts de automação
+- Criação de APIs e microservices
+- Aplicações embarcadas
+
+   Exemplo de caractere especial: %
+   Outro caractere: #
+
+A pergunta é: você está pronto para se aprofundar em Python?
+
+Fim do Arquivo 1.
